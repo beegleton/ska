@@ -1,0 +1,57 @@
+.fair-logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 32px;
+    
+}
+.flexit-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+    .flexit-item {
+        position: relative;
+        width: 140px;
+        height: 140px;
+        margin: 10px;
+        text-align: center;
+        box-shadow: 0 -4px 24px 2px rgba(0, 0, 0, 0.05), 0 6px 30px 5px rgba(0, 0, 0, 0.03), 0 8px 10px -5px rgba(0, 0, 0, 0.05);
+        background-color: #ffffff;
+        
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .flexit-inner-wrapper {
+            height: 80px;
+            width: 160px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img {
+                height: auto;
+                width: auto;
+                max-width: 120px;
+                max-height: 80px;
+            }
+        }
+    }
+}
